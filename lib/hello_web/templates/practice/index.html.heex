@@ -1,0 +1,9 @@
+<div class="phx-hero">
+    <h2>My friends 💅 ✨</h2>
+
+    <p>
+        <%= for {k, v} <- @dict do %>
+            <%= v %> is my <%= k %> friend.
+        <% end %>
+    </p>
+</div>
